@@ -1,0 +1,6 @@
+{
+    "env":{
+        "MONGO_ALTAS_USERNAME": "nandeep",
+        "MONGO_ALTAS_PASSWORD": "Master@123"
+    }
+}
