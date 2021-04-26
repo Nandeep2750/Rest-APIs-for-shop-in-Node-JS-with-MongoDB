@@ -14,6 +14,8 @@ Use the package manager [npm](https://www.npmjs.com/) to install the dependencie
 npm install
 ```
 
+> Postman Collection Link : https://www.getpostman.com/collections/e5397b7ca8185131fd87
+
 ## API's List
 
 **User Api's**
