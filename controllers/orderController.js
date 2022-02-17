@@ -87,6 +87,13 @@ class OrderController extends AppController {
         OrderModel.findById(id)
             .select('_id productId quantity')
             .populate('productId','name price')
+            // .populate({
+            //     path: "productId",
+            //     select: [
+            //       "name",
+            //       "price",
+            //     ]
+            // })
             .exec()
             .then((result) => {
                 if (result) {
